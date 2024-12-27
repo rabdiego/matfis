@@ -23,8 +23,8 @@ class Vector:
         """
         s = 0
         for element in self.data:
-            s += element
-        return s
+            s += element**2
+        return s**(0.5)
 
 
     def norm(self):
